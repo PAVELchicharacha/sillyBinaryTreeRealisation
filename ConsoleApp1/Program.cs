@@ -14,10 +14,6 @@
 
     }
     public TreeNode root;//корень дерева
-    public Solution()
-    {
-        root = null;
-    }
     public Solution(int value)
     {
         root = new TreeNode(value);//изначально даем корневое значение
